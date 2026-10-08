@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atores e Atrizes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Atores e Atrizes</h1>
+  <p class="subtitulo">Digite um nome para filtrar os cards</p>
+
+  <div class="busca">
+    <input type="text" id="campoBusca" placeholder="Buscar ator ou atriz..." oninput="filtrarAtores()">
+  </div>
+
+  <p class="contador" id="contador"></p>
+
+  <div class="grid" id="grid"></div>
+
+  <script src="dados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
